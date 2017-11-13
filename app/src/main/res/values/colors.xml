@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#31244e</color>
+    <color name="colorPrimaryDark">#31244e</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#6b394c</color>
+    <!--<color name="colorAccent">#FF80AB</color>-->
+
+    <color name="white">#ffffff</color>
+    <!--<color name="bg_gradient_start">#283593</color>-->
+    <!--<color name="bg_gradient_end">#388E3C</color>-->
+    <color name="bg_gradient_start">#6b394c</color>31244e
+    <color name="bg_gradient_end">#31244e</color>
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Material Design</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_ass">Assistente Virtual</string>
+    <string name="nav_item_friends">Friends</string>
+    <string name="nav_item_notifications">Messages</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_ass</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_notifications</item>
+    </string-array>
+
+    <string name="title_messages">Messages</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_home">Assistente Virtual</string>
+
+    <string name="speech_prompt">Faça um pergunta...</string>
+    <string name="speech_not_supported">Desculpe! Seu dispositivo não suporta essa funcionalidade</string>
+    <string name="tap_on_mic">Toque no microfone e fale...</string>
+    <string name="text_speech_username">06fbf6c3-4c5b-4816-aa9a-15cbd8e92ea5</string>
+    <string name="text_speech_password">n3jOVARn4BVa</string>
+</resources>
