@@ -48,23 +48,22 @@ public class EmprestimoListAdapter extends RecyclerView.Adapter<EmprestimoListAd
         holder.juros.setText(emprestimo.getJuros());
 
         final String nome = emprestimo.getNome();
-//
-//        if (nome.equalsIgnoreCase("just")) {
-//            holder.imageView.setImageResource(R.mipmap.just_online);
-//        } else if (nome.equalsIgnoreCase("lendico")) {
-//            holder.imageView.setImageResource(R.mipmap.lendico_logo);
-//        } else if (nome.equalsIgnoreCase("bompracredito")) {
-//            holder.imageView.setImageResource(R.mipmap.bompracredito);
-//        } else if (nome.equalsIgnoreCase("Simplic")) {
-//            holder.imageView.setImageResource(R.mipmap.simplic_logo);
-//        } else if (nome.equalsIgnoreCase("geru")) {
-//            holder.imageView.setImageResource(R.mipmap.geru);
-//        } else if (nome.equalsIgnoreCase("noverde")) {
-//            holder.imageView.setImageResource(R.mipmap.noverde);
-//        }
+
+        if (nome.equalsIgnoreCase("SIMPLIC")) {
+            holder.imageView.setImageResource(R.mipmap.simplic);
+        } else if (nome.equalsIgnoreCase("BOMPRACREDITO")) {
+            holder.imageView.setImageResource(R.mipmap.bompracredito);
+        } else if (nome.equalsIgnoreCase("JUST")) {
+            holder.imageView.setImageResource(R.mipmap.just);
+        } else if (nome.equalsIgnoreCase("GERU")) {
+            holder.imageView.setImageResource(R.mipmap.geru);
+        } else if (nome.equalsIgnoreCase("LENDICO")) {
+            holder.imageView.setImageResource(R.mipmap.lendico);
+        } else if (nome.equalsIgnoreCase("NOVERDE")) {
+            holder.imageView.setImageResource(R.mipmap.noverde);
+        }
 
         ((ViewHolder) holder).maisinfo.setOnClickListener(new View.OnClickListener() {
-
             @Override
             public void onClick(View view) {
 
